@@ -6,7 +6,7 @@ public class Person {
     public static double time = 0;
 
     public void test(){
-        time += 6.8;
+        time += 7;
     }
 
     public Person(){
@@ -65,6 +65,8 @@ public class Person {
         time += .4;
     }
 
+
+
     public String getName() {
         return name;
     }
@@ -97,8 +99,15 @@ public class Person {
         this.money = money;
     }
 
+
+
     public String display(){
         return "Day: "+time+"    Name: "+getName();
 
     }
+
+
+    
+
+
 }
